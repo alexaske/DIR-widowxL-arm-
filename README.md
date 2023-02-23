@@ -10,13 +10,21 @@ This is code for DIR's talos manipulator!
 Go to the desired location for creating the ws:
 
 $ cd Desktop
+
 $ mkdir my_ws/src
+
 $ cd my_ws
+
 $ mkdir src
+
 $ cd src
+
 $ git clone https://github.com/alexaske/DIR-widowxL-arm-.git
+
 $ cd ..
+
 $ catkin_make
+
 $ source devel/setup.bash
 
 
