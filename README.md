@@ -3,9 +3,9 @@
 
 This is code for DIR's talos manipulator!
 
-##GUIDE
+## GUIDE
 
-##STEP1 
+## STEP1 
 
 Go to the desired location for creating the ws:
 
