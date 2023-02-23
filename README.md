@@ -33,6 +33,8 @@ $ source devel/setup.bash
 After connecting the arbotix with your computer 
 
 $ sudo chmod 777 /dev/ttyUSB0
+
+
 $ roslaunch widowx_arm_bringup arm_moveit.launch
 
 The rviz will open and you can start planning!
