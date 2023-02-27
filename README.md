@@ -45,6 +45,7 @@ $ roslaunch widowx_arm_bringup arm_moveit.launch sim:=false
 
 $chmod +x src/arbotix_ros/arbotix_python/bin/arbotix_driver
 
+After giving permissions you should launch again
 
 The rviz will open and you can start planning!
 # ENJOY
