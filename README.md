@@ -34,9 +34,18 @@ After connecting the arbotix with your computer
 
 $ sudo chmod 777 /dev/ttyUSB0
 
+$ roslaunch widowx_arm_controller widowx_arm_controller.launch
 
-$ roslaunch widowx_arm_bringup arm_moveit.launch sim:=false
+Give each of these commands in a separate command window 
 
+:warning: ####Hold the arm so that it doesn't hit anything :warning:
+
+$ rostopic pub -1 /joint_1/command std_msgs/Float64 "data: 0.0"
+$ rostopic pub -1 /joint_2/command std_msgs/Float64 "data: 0.0"
+$ rostopic pub -1 /joint_3/command std_msgs/Float64 "data: 0.0"
+$ rostopic pub -1 /joint_4/command std_msgs/Float64 "data: 0.0"
+
+Now all of the motors should be locked and the arm has been initialized to the default pose!!!
 
 ## Maybe you need to give execute permissions to some of the packages
 
@@ -46,6 +55,9 @@ $ roslaunch widowx_arm_bringup arm_moveit.launch sim:=false
 $chmod +x src/arbotix_ros/arbotix_python/bin/arbotix_driver
 
 After giving permissions you should launch again
+
+## STEP 3
+$ roslaunch widowx_arm_bringup arm_moveit.launch sim:=false
 
 The rviz will open and you can start planning!
 # ENJOY
