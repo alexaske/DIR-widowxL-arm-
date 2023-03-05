@@ -50,7 +50,7 @@ $ rostopic pub -1 /joint_4/command std_msgs/Float64 "data: 0.0"
 
 Now all of the motors should be locked and the arm has been initialized to the default pose!!!
 
-## Maybe you need to give execute permissions to some of the packages
+#### :warning: Maybe you need to give execute permissions to some of the packages
 
 ![Screenshot_2023-02-24_154146](https://user-images.githubusercontent.com/78262995/221682553-fd1c0dd6-1a8c-4ea8-90bd-db7511e50b51.png)
 
