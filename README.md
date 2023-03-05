@@ -41,8 +41,11 @@ Give each of these commands in a separate command window
 :warning: Hold the arm so that it doesn't hit anything :warning:
 
 $ rostopic pub -1 /joint_1/command std_msgs/Float64 "data: 0.0"
+
 $ rostopic pub -1 /joint_2/command std_msgs/Float64 "data: 0.0"
+
 $ rostopic pub -1 /joint_3/command std_msgs/Float64 "data: 0.0"
+
 $ rostopic pub -1 /joint_4/command std_msgs/Float64 "data: 0.0"
 
 Now all of the motors should be locked and the arm has been initialized to the default pose!!!
