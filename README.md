@@ -38,7 +38,7 @@ $ roslaunch widowx_arm_controller widowx_arm_controller.launch
 
 Give each of these commands in a separate command window 
 
-:warning: ## Hold the arm so that it doesn't hit anything :warning:
+:warning: Hold the arm so that it doesn't hit anything :warning:
 
 $ rostopic pub -1 /joint_1/command std_msgs/Float64 "data: 0.0"
 $ rostopic pub -1 /joint_2/command std_msgs/Float64 "data: 0.0"
