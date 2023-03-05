@@ -25,33 +25,40 @@
         <joint name="joint_4" value="0" />
         <joint name="joint_5" value="0" />
     </group_state>
-    <group_state name="alternate_pose" group="widowx_arm">
+    <group_state name="PREGRAP" group="widowx_arm">
         <joint name="joint_1" value="0" />
-        <joint name="joint_2" value="-0.7855" />
-        <joint name="joint_3" value="0.4863" />
-        <joint name="joint_4" value="0.3056" />
-        <joint name="joint_5" value="1.0904" />
-    </group_state>
-    <group_state name="pulled_back_pose" group="widowx_arm">
-        <joint name="joint_1" value="0.0076" />
-        <joint name="joint_2" value="-0.9538" />
-        <joint name="joint_3" value="0.4115" />
-        <joint name="joint_4" value="1.4957" />
-        <joint name="joint_5" value="-1.3708" />
-    </group_state>
-    <group_state name="ground_calibration_pose" group="widowx_arm">
-        <joint name="joint_1" value="0" />
-        <joint name="joint_2" value="0.994" />
-        <joint name="joint_3" value="0.5867" />
-        <joint name="joint_4" value="-1.5844" />
+        <joint name="joint_2" value="0.12732040539450823" />
+        <joint name="joint_3" value="-0.1487961364249072" />
+        <joint name="joint_4" value="1.5661943844312396" />
         <joint name="joint_5" value="0" />
     </group_state>
+    <group_state name="GRAP" group="widowx_arm">
+        <joint name="joint_1" value="0" />
+        <joint name="joint_2" value="0.19941750242513334" />
+        <joint name="joint_3" value="0.17333982903107745" />
+        <joint name="joint_4" value="1.1826991874598294" />
+        <joint name="joint_5" value="0" />
+    </group_state>
+    <group_state name="REVERSE" group="widowx_arm">
+        <joint name="joint_1" value="0" />
+        <joint name="joint_2" value="-0.868233125943273" />
+        <joint name="joint_3" value="-1.1826991874598294" />
+        <joint name="joint_4" value="-1.4818254410975293" />
+        <joint name="joint_5" value="0" />
+    </group_state>
+    <group_state name="NAVIGATION" group="widowx_arm">
+        <joint name="joint_1" value="0" />
+        <joint name="joint_2" value="-0.5675728915176872" />
+        <joint name="joint_3" value="1.4220001903699893" />
+        <joint name="joint_4" value="-1.3268933815210797" />
+        <joint name="joint_5" value="0" />
+    </group_state>   
     <group_state name="gripper_closed_pose" group="widowx_gripper">
-        <joint name="gripper_joint" value="0.002" />
+        <joint name="gripper_joint" value="0.019705010627571358" />
         <joint name="gripper_prismatic_joint_2" value="0.002" />
     </group_state>
     <group_state name="gripper_open_pose" group="widowx_gripper">
-        <joint name="gripper_joint" value="0.031" />
+        <joint name="gripper_joint" value="0.005515052940522805" />
         <joint name="gripper_prismatic_joint_2" value="0.031" />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
