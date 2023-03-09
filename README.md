@@ -65,7 +65,7 @@ $ roslaunch widowx_arm_bringup arm_moveit.launch sim:=false
 The rviz will open and you can start planning!
 # HOW TO RUN SIMULATION 
 
-## Do step 1
+Do step 1 and then run 🔡
 
 $ roslaunch widowx_arm_bringup arm_moveit.launch
 
