@@ -63,4 +63,9 @@ After giving permissions you should launch again
 $ roslaunch widowx_arm_bringup arm_moveit.launch sim:=false
 
 The rviz will open and you can start planning!
-# ENJOY
+# HOW TO RUN SIMULATION 
+
+## Do step 1
+
+$ roslaunch widowx_arm_bringup arm_moveit.launch
+
