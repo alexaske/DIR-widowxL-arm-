@@ -11,7 +11,7 @@ Go to the desired location for creating the ws:
 
 $ cd Desktop
 
-$ mkdir my_ws/src
+$ mkdir my_ws
 
 $ cd my_ws
 
